@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Noto+Sans+Mono:wght@700&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    height: 100vh;
+}
+header{
+    background: #f5f5f7;
+    
+
+}
+
+header ul{
+    height: 40px;
+    
+    width: 1200px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 350px;
+}
+
+header ul li{
+    font-size: 12px;
+    list-style-type: none;
+    
+}
+
+.uppermsgblnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+
+}
+
+.uppermsgblnav span a{
+    text-decoration: none;
+}
+
+.uppermsgblnav span{
+    font-size: 14px;
+    padding: 12px 14px;
+}
+.uppermsgblnav span i{
+    padding-left: 5px;
+}
+
+.hero{
+    width: 100%;
+
+}
+.img-section{
+    position: absolute;
+    text-align: center;
+    
+}
+
+.photoontxt{
+    
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    /* margin: 100px auto; */
+}
+.img-section .link{
+    position: absolute;
+    left: 80px;
+}
+
+.img-section .link a{
+    margin-left: 40px;
+    color: #0066cc;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+
+.img-section .link a i{
+    font-size: 15px;
+}
+
+.photoontxt h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 64px;
+    z-index: -1;
+
+}
+
+.photoontxt span{
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 0px;
+}
+.img-section img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(150%);
+    overflow: hidden;
+    margin-top: 6.2%;
+}
+
+.hero-wrapper{
+
+}
+
+
+/* Second Image Section */
+
+.sendimgsection{
+    width: 100%;
+}
+
+.sendimgsection img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(150%);
+    /* overflow: hidden; */
+    position: absolute;
+    top: 98%;
+    
+
+}
+
+.txt2nd{
+    position: absolute;
+    top: 90%;
+    color: #000;
+    z-index: 5;
+    left: 40%;
+    text-align: center;
+    
+
+}
+
+.txt2nd h2{
+    font-size: 52px;
+    font-weight: 700;
+
+
+}
+
+.txt2nd span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.txt2nd a i{
+    font-size: 15px;
+}
+
+.txt2nd a{
+    margin-left: 50px;
+    font-size: 20px;
+    color: #0066cc;
+    text-decoration: none;
+
+
+}
+
+/* Iwatch */
+
+.iwatch3rd{
+    width: 100%;
+    
+}
+
+.iwatch3rd img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(150%);
+    /* overflow: hidden; */
+    position: absolute;
+    top: 175%;
+    
+}
+
+.iwatchtxt{
+    
+    z-index: 6;
+    height: 100px;
+    width: 20%;
+    position: absolute;
+    text-align: center;
+    top: 175%;
+    left: 40%;
+    color: #fff;
+    
+}
+
+.iwatchtxt span svg{
+    fill: #fff;
+}
+
+.iwatchlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iwatchlogo img {
+    height: 60px;
+    width: 120px;
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+}
+
+.wrapper-iwatch-txt{
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    text-align: center;
+}
+
+.wrapper-iwatch-txt p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.linkforiwatch a{
+    position: relative;
+    right: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #0066cc;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.linkforiwatch a i{
+    font-size: 15px;
+}
+
+.lastwrappper{
+    width: 100%;
+    /* height: 100vh; */
+    z-index: 8;
+    position: absolute;
+    top: 240%;
+    
+}
+
+.st1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+.st2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    padding-bottom: 25px;
+
+    
+}
+.st3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    padding-bottom: 25px;
+    
+}
+
+.img1{
+    width: 49%;
+    height: 50%;
+    background: #fbfbfd;
+   
+    
+}
+.img2{
+    width: 49%;
+    height: 50%;
+    background: #fbfbfd;
+}
+.img3{
+    width: 49%;
+    height: 50%;
+    background: #fbfbfd;
+}
+.img4{
+    width: 49%;
+    height: 50%;
+    background: #f5f5f7;
+}
+.img5{
+    width: 49%;
+    height: 50%;
+    background: #fafafa;
+}
+.img6{
+    width: 49%;
+    height: 50%;
+    background: #f3f3f5;
+}
+
+.ultrawatch{
+    position: absolute;
+    left: 22%;
+}
+.ultrawatch img{
+    height: 70px;
+    width: 100%;
+    padding-top: 10px;
+
+    
+
+}
+
+.ultradrapper{
+    position: absolute;
+    left: 22%;
+    top: 9%;
+}
+.ultradrapper5{
+    position: absolute;
+    left: 18.8%;
+    top: 8%;
+    text-align: center;
+}
+
+
+.iwatchimg img{
+    width: 100%;
+    background-size: cover;
+    
+  
+}
+.ultrawatch1 img{
+    height: 60px;
+    position: absolute;
+    left: 25%;
+}
+.ultrawatch1{
+    position: absolute;
+    left: 65%;
+    padding-top: 10px;
+}
+
+.ultradrapper1{
+    position: absolute;
+    left: 70%;
+    top: 7.5%;
+    text-align: center;
+}
+.ultradrapper2{
+    position: absolute;
+    left: 71%;
+    top: 9.5%;
+    text-align: center;
+}
+.ultradrapper6{
+    position: absolute;
+    left: 71.5%;
+    top: 7.3%;
+    text-align: center;
+}
+
+.ultrawatch2{
+    position: absolute;
+    left: 67%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.ultrawatch5{
+    position: absolute;
+    left: 18%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.ultrawatch6{
+    position: absolute;
+    left: 70%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.ultrawatch6 img{
+    height: 45px;
+}
+
+.slider-container {
+    width: 980px;
+    overflow: hidden;
+    position: absolute;
+    top: 400%;
+    height: 400px;
+    transform: scale(110%);
+    margin-bottom: 20px;
+    left: 25%;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 980px;
+    height: 100%;
+}
+.slide img{
+    height: 400px;
+    width: 980px;
+    background-size: cover;
+}
+.slider-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.slider-btn:hover {
+    background-color: #555;
+}
+
+.foot{
+    width: 100%;
+    height: 600px;
+    background: #f5f5f7;
+    position: absolute;
+    top: 460%;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: left;
+    color: #777;
+    font-size: 14px;
+    
+
+}
+
+
+.foot span{
+    font-size: 11px;
+    margin-top: 10px;
+    
+}
+
+.borderbtm{
+    padding-top: 10px;
+    border-bottom: 2px solid #e4e3e3;
+
+}
+
+.footmenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footmenu ul {
+    list-style-type: none;
+
+}
+
+.footmenu ul li{
+    margin-top: 5px;
+}
+
+.footmenu ul strong{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.copyright{
+    width: 100%;
+    height: 60px;
+    background: #777;
+
+}
+
+.moreways{
+    background: #f5f5f7;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 522%;
+    
+}
+
+.moreways span{
+    position: absolute;
+    left: 26%;
+    font-size: 14px;
+    
+}
+
+.line{
+    width: 48%;
+    height: 1px;
+    background: #d8d7d7;
+    position: absolute;
+    top: 526%;
+    margin-left: 490px;
+    margin-right: 500px;
+    
+}
+
+.copyright{
+    width: 100%;
+    background: #f5f5f7;
+    position: absolute;
+    top: 528%;
+    text-align: center;
+    height: 20px;
+}
+
+.copyright span{
+    font-size: 14px;
+    position: relative;
+    right: 125px;
+    letter-spacing: 1.2;
+    font-size: 12px;
+    bottom: 15px;
+
+}
+
+.copyright .india{
+    position: relative;
+    left: 55px;
+}
